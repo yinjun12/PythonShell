@@ -10,8 +10,11 @@
 所以我先定义了一个Type类，把列表中的元素都放到Type类中，这样列表就可以用vector来进行操作。
 
 class Type
+
 {
+
     public:
+    
     float value;//用来存放int或float类型的数据
     string val_str;//用来存放字符串类型数据
     int type;//用来表示数据的类型，因为python中没有类型，0代表整形，1代表浮点型，2代表字符串类型
